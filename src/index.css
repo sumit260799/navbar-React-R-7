@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8fafc;
+}
+
+.aka {
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 800px) {
+    button {
+        display: none !important;
+    }
+
+    .link-container {
+        height: auto !important;
+        display: grid;
+        grid-column: 3/4;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aka {
+        display: grid;
+        grid-column: 2/3;
+    }
+
+    .icons {
+        /* display: flex; */
+        display: grid;
+        grid-column: 4/5;
+
+    }
+
+    .social-icons {
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .nav-center {
+        display: grid;
+        grid-template-columns: 2rem 15rem 1fr 0.5fr 2rem;
+    }
+
+
+}
+
+@media screen and (min-width: 950px) {
+    button {
+        display: none !important;
+    }
+
+    .link-container {
+        height: auto !important;
+        display: grid;
+        grid-column: 3/4;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aka {
+        display: grid;
+        grid-column: 2/3;
+    }
+
+    .icons {
+        /* display: flex; */
+        display: grid;
+        grid-column: 4/5;
+
+    }
+
+    .social-icons {
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .nav-center {
+        display: grid;
+        grid-template-columns: 4rem 15rem 1fr 0.5fr 4rem;
+    }
+
+
+}
+
+@media screen and (min-width: 1150px) {
+    button {
+        display: none !important;
+    }
+
+    .link-container {
+        height: auto !important;
+        display: grid;
+        grid-column: 3/4;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aka {
+        display: grid;
+        grid-column: 2/3;
+    }
+
+    .icons {
+        /* display: flex; */
+        display: grid;
+        grid-column: 4/5;
+
+    }
+
+    .social-icons {
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .nav-center {
+        display: grid;
+        grid-template-columns: 10rem 15rem 1fr 0.5fr 10rem;
+    }
+
+
+}
